@@ -1,7 +1,6 @@
 # Reinforcement Learning - Modelagem e soluções de problemas
 Mini-Projeto: Modelagem e solução de problemas com Aprendizado por Reforço
 
-Mini-Projeto: Modelagem e solução de problemas com Aprendizado por Reforço
 # 1. Contextualização
 
 Neste projeto, vocês irão aplicar os conhecimentos obtidos até então em aula, além de usar a criatividade para conceber uma solução viável para um problema de aprendizado por reforço.  O objetivo é avaliar a eficiência amostral (sample efficiency) de diferentes abordagens.
