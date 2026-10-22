@@ -1,0 +1,74 @@
+[
+  {
+    "grid": 10,
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_initial": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.99,
+    "config_id": "q_g10_p0",
+    "algorithm": "Q-learning",
+    "planning_steps": 0,
+    "lambda": 0.0
+  },
+  {
+    "grid": 10,
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_initial": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.99,
+    "config_id": "sarsa_g10_p0_l9",
+    "algorithm": "SARSA(lambda)",
+    "planning_steps": 0,
+    "lambda": 0.9
+  },
+  {
+    "grid": 10,
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_initial": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.99,
+    "config_id": "dyna_g10_p0_n5",
+    "algorithm": "Dyna-Q",
+    "planning_steps": 5,
+    "lambda": 0.0
+  },
+  {
+    "grid": 30,
+    "alpha": 0.1,
+    "gamma": 0.99,
+    "epsilon_initial": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.99,
+    "config_id": "dyna_g30_p0_n5",
+    "algorithm": "Dyna-Q",
+    "planning_steps": 5,
+    "lambda": 0.0
+  },
+  {
+    "grid": 30,
+    "alpha": 0.3,
+    "gamma": 0.999,
+    "epsilon_initial": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.995,
+    "config_id": "q_g30_p1",
+    "algorithm": "Q-learning",
+    "planning_steps": 0,
+    "lambda": 0.0
+  },
+  {
+    "grid": 30,
+    "alpha": 0.3,
+    "gamma": 0.999,
+    "epsilon_initial": 1.0,
+    "epsilon_min": 0.05,
+    "epsilon_decay": 0.995,
+    "config_id": "sarsa_g30_p1_l9",
+    "algorithm": "SARSA(lambda)",
+    "planning_steps": 0,
+    "lambda": 0.9
+  }
+]

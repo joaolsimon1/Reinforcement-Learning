@@ -1,0 +1,161 @@
+{
+  "environment": "MountainCar-v0",
+  "episodes": 600,
+  "tail_episodes": 100,
+  "selection_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "evaluation_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109
+  ],
+  "candidates": [
+    {
+      "config_id": "g10_p0_n0",
+      "grid": 10,
+      "planning_steps": 0,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.1,
+      "gamma": 0.99,
+      "epsilon_decay": 0.99
+    },
+    {
+      "config_id": "g10_p0_n5",
+      "grid": 10,
+      "planning_steps": 5,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.1,
+      "gamma": 0.99,
+      "epsilon_decay": 0.99
+    },
+    {
+      "config_id": "g10_p0_n20",
+      "grid": 10,
+      "planning_steps": 20,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.1,
+      "gamma": 0.99,
+      "epsilon_decay": 0.99
+    },
+    {
+      "config_id": "g10_p1_n0",
+      "grid": 10,
+      "planning_steps": 0,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.3,
+      "gamma": 0.999,
+      "epsilon_decay": 0.995
+    },
+    {
+      "config_id": "g10_p1_n5",
+      "grid": 10,
+      "planning_steps": 5,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.3,
+      "gamma": 0.999,
+      "epsilon_decay": 0.995
+    },
+    {
+      "config_id": "g10_p1_n20",
+      "grid": 10,
+      "planning_steps": 20,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.3,
+      "gamma": 0.999,
+      "epsilon_decay": 0.995
+    },
+    {
+      "config_id": "g30_p0_n0",
+      "grid": 30,
+      "planning_steps": 0,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.1,
+      "gamma": 0.99,
+      "epsilon_decay": 0.99
+    },
+    {
+      "config_id": "g30_p0_n5",
+      "grid": 30,
+      "planning_steps": 5,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.1,
+      "gamma": 0.99,
+      "epsilon_decay": 0.99
+    },
+    {
+      "config_id": "g30_p0_n20",
+      "grid": 30,
+      "planning_steps": 20,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.1,
+      "gamma": 0.99,
+      "epsilon_decay": 0.99
+    },
+    {
+      "config_id": "g30_p1_n0",
+      "grid": 30,
+      "planning_steps": 0,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.3,
+      "gamma": 0.999,
+      "epsilon_decay": 0.995
+    },
+    {
+      "config_id": "g30_p1_n5",
+      "grid": 30,
+      "planning_steps": 5,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.3,
+      "gamma": 0.999,
+      "epsilon_decay": 0.995
+    },
+    {
+      "config_id": "g30_p1_n20",
+      "grid": 30,
+      "planning_steps": 20,
+      "epsilon_initial": 1.0,
+      "epsilon_min": 0.05,
+      "alpha": 0.3,
+      "gamma": 0.999,
+      "epsilon_decay": 0.995
+    }
+  ],
+  "selection_criterion": "Maior recompensa m\u00e9dia nos \u00faltimos 100 epis\u00f3dios; desempate pelo menor n\u00famero m\u00e9dio de atualiza\u00e7\u00f5es Q.",
+  "python": "3.10.8",
+  "packages": {
+    "numpy": "2.2.6",
+    "gymnasium": "1.2.3",
+    "numba": "0.61.2",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.7",
+    "seaborn": "0.13.2"
+  }
+}
